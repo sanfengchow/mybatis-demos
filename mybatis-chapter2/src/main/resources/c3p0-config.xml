@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c3p0-config>
+    <default-config> <!-- 默认配置 -->
+        <property name="driverClass">com.microsoft.sqlserver.jdbc.SQLServerDriver</property>
+        <property name="jdbcUrl">
+            <![CDATA[jdbc:sqlserver://localhost:1433;DatabaseName=SPS]]>
+        </property>
+        <property name="user">sa</property>
+        <property name="password">123123</property>
+        <property name="acquireIncrement">10</property>
+        <property name="initialPoolSize">10</property>
+        <property name="maxPoolSize">500</property>
+        <property name="maxIdleTime">10</property>
+        <property name="minPoolSize">10</property>
+    </default-config>
+</c3p0-config>
